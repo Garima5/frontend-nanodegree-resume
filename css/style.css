@@ -167,7 +167,11 @@ span {
 #lets-connect {
   text-align: center;
 }
-
+.project-image
+{
+  width: 20%;
+  height: 20%;
+}
 /* Media queries to handle various device widths */
 
 @media only screen and (max-width: 1024px) {
