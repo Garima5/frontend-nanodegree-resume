@@ -3,7 +3,7 @@
  {
  	"name":"Garima Aggarwal",
  	"role":"Web developer",
- 	"contact":
+ 	"contacts":
  	{
  		"mobile":"0783xxxxxxxx",
  		"email":"garimaaxxx@gmail.com",
@@ -97,11 +97,11 @@
 
  $("#header").prepend(formattedRole);
  $("#header").prepend(formattedName);
- var formattedMobile=HTMLmobile.replace("%data%",bio.contact.mobile);
- var formattedEmail=HTMLemail.replace("%data%",bio.contact.email);
- var formattedGithub=HTMLgithub.replace("%data%",bio.contact.github);
- var formattedLinkedin=HTMLlinkedin.replace("%data%",bio.contact.linkedin);
- var formattedLocation=HTMLlocation.replace("%data%",bio.contact.location);
+ var formattedMobile=HTMLmobile.replace("%data%",bio.contacts.mobile);
+ var formattedEmail=HTMLemail.replace("%data%",bio.contacts.email);
+ var formattedGithub=HTMLgithub.replace("%data%",bio.contacts.github);
+ var formattedLinkedin=HTMLlinkedin.replace("%data%",bio.contacts.linkedin);
+ var formattedLocation=HTMLlocation.replace("%data%",bio.contacts.location);
  var formattedBiopic=HTMLbioPic.replace("%data%",bio.biopic);
  var formattedWelcomeMessage=HTMLwelcomeMsg.replace("%data%",bio.welcomeMessage);
  
