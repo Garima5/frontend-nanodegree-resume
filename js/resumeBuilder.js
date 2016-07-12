@@ -46,7 +46,7 @@
          "location": "Mountain View,California",
          "description": "A reasearch and developement in space and technology"
      }, {
-         "employer": "Gx",
+         "employer": "Gy",
          "title": "head",
          "dates": "2018-future",
          "location": "London",
@@ -55,7 +55,7 @@
  };
  var projects = {
      "project": [{
-             "title": "A web page featuring HTML CSS notes",
+             "title": "A web page featuring HTML CSS notes 1",
              "date": "2015",
              "description": "A part of Introduction to programming nanodegree.A backend in Python to host a web page containing HTML and CSS notes on Google App Engine",
              "images": [
@@ -63,7 +63,7 @@
              ]
 
          }, {
-             "title": "A web page featuring HTML CSS notes",
+             "title": "A web page featuring HTML CSS notes 2",
              "date": "2015",
              "description": "A part of Introduction to programming nanodegree.A backend in Python to host a web page containing HTML and CSS notes on Google App Engine",
              "images": ["images/website.png",
