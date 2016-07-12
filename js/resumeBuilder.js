@@ -75,7 +75,7 @@
      ]
  };
 
- function display_bio() {
+bio.display = function()  {
 
 
      var formattedName = HTMLheaderName.replace("%data%", bio.name);
@@ -111,15 +111,14 @@
              $("#skills").append(formattedSkills);
          }
      }
- }
- bio.display = function() {
-     display_bio();
  };
+ 
+     
  bio.display();
 
  ////////---------Work Experience---------------/////////////////
 
- function display_work() {
+ work.display = function() {
 
      if (work.jobs.length > 0) {
          var workStart = HTMLworkStart;
@@ -136,18 +135,16 @@
 
          }
      }
- }
-
-
- work.display = function() {
-     display_work();
  };
+
+
+ 
  work.display();
 
 
  ////////-----------projects-----------/////////////
 
- function display_projects() {
+  projects.display = function() {
      if (projects.project.length > 0) {
 
 
@@ -173,14 +170,12 @@
              }
          }
      }
- }
- projects.display = function() {
-     display_projects();
  };
+ 
  projects.display();
 
  ///////////--------Education----------////////////
- function display_education() {
+  education.display = function() {
      var educationStart = HTMLschoolStart;
 
      if (education.schools.length > 0) {
@@ -216,19 +211,9 @@
              $(".education-entry:last").append(formattedonlineURL);
          }
      }
- }
- education.display = function() {
-     display_education();
  };
+ 
  education.display();
-
- function locationizer(work_obj) {
-     var locationArray = [];
-     for (var job=0;job<work_obj.jobs.length;job++) {
-         var newLocation = work_obj.jobs[job].location;
-         locationArray.push(newLocation);
-     }
-     return locationArray;
- }
+ 
 
  $("#mapDiv").append(googleMap);
